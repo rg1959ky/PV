@@ -1,0 +1,17 @@
+﻿dbMemo "SQL" ="SELECT BOMLinesThree.[Parent Item], BOMLinesThree.[Sequence Number], BOMLinesThr"
+    "ee.[Sub Item], BOMLinesThree.[Qty Per], Items.[Stock Unit]\015\012FROM (BOMLines"
+    "Three INNER JOIN Items ON BOMLinesThree.[Sub Item]=Items.Item) INNER JOIN PN ON "
+    "BOMLinesThree.[Parent Item]=PN.PNPartNumber\015\012WHERE (((BOMLinesThree.[Paren"
+    "t Item]) Like \"DC00*\") AND ((PN.PNStatus)<>\"O\"))\015\012ORDER BY BOMLinesThr"
+    "ee.[Parent Item], BOMLinesThree.[Sub Item];\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+Begin
+End

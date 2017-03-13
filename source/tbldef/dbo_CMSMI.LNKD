@@ -1,0 +1,4 @@
+﻿dbo_CMSMI
+ODBC;DSN=EDG3;Description=3rd DG ERP database used since about 2010;UID=sa;PWD=;APP=Microsoft Office 2010;DATABASE=Eminence
+dbo.CMSMI
+MI001;+MI002;+MI003

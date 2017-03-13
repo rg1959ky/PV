@@ -1,0 +1,15 @@
+﻿dbMemo "SQL" ="SELECT Items.Item, Items.[Item Property], Items.[Inventory Quantity]\015\012FROM"
+    " BOMLinesThree INNER JOIN Items ON BOMLinesThree.[Sub Item]=Items.Item\015\012GR"
+    "OUP BY Items.Item, Items.[Item Property], Items.[Inventory Quantity]\015\012HAVI"
+    "NG (((Items.[Item Property])=\"M\"));\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+Begin
+End

@@ -1,0 +1,4 @@
+﻿dbo_QMSTD
+ODBC;DSN=EDG3;Description=3rd DG ERP database used since about 2010;UID=sa;PWD=;APP=Microsoft Office 2010;DATABASE=Eminence
+dbo.QMSTD
+TD001;+TD002;+TD003;+TDC01;+TD026

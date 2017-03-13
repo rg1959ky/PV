@@ -1,0 +1,6 @@
+CREATE TABLE [BackflushList] (
+  [Item] VARCHAR (255) CONSTRAINT [PrimaryKey] PRIMARY KEY  UNIQUE  NOT NULL ,
+  [Descrip] VARCHAR (255),
+  [Spec] VARCHAR (255),
+  [UOM] VARCHAR (255)
+)

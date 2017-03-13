@@ -1,0 +1,5 @@
+CREATE TABLE [tblTableSizes] (
+  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY  UNIQUE  NOT NULL ,
+  [Table Name] VARCHAR (255),
+  [Table Size] LONG 
+)

@@ -1,0 +1,26 @@
+﻿dbMemo "SQL" ="SELECT dbo_SalesInvoiceEntityView.ReferenceNumber, dbo_InventoryItemAccountEntit"
+    "yView.Name, dbo_InventoryItemAccountEntityView.AccountID, dbo_InventoryItemAccou"
+    "ntEntityView.VendorItemNumber, Sum(dbo_SalesInvoiceLineEntityView.Quantity) AS S"
+    "umOfQuantity, dbo_SalesInvoiceEntityView.IsVoided\015\012FROM dbo_InventoryItemA"
+    "ccountEntityView INNER JOIN (dbo_SalesInvoiceEntityView INNER JOIN dbo_SalesInvo"
+    "iceLineEntityView ON dbo_SalesInvoiceEntityView.DocumentID = dbo_SalesInvoiceLin"
+    "eEntityView.DocumentID) ON dbo_InventoryItemAccountEntityView.AccountID = dbo_Sa"
+    "lesInvoiceLineEntityView.LineItemID\015\012GROUP BY dbo_SalesInvoiceEntityView.R"
+    "eferenceNumber, dbo_InventoryItemAccountEntityView.Name, dbo_InventoryItemAccoun"
+    "tEntityView.AccountID, dbo_InventoryItemAccountEntityView.VendorItemNumber, dbo_"
+    "SalesInvoiceEntityView.IsVoided\015\012HAVING (((dbo_SalesInvoiceEntityView.Refe"
+    "renceNumber) Not Like \"\") AND ((dbo_SalesInvoiceEntityView.IsVoided)=False));\015"
+    "\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+Begin
+    Begin
+        dbText "Name" ="SumOfQuantity"
+    End
+End

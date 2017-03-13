@@ -1,0 +1,4 @@
+﻿dbo_ACRIC
+ODBC;DSN=EDG3;Description=3rd DG ERP database used since about 2010;UID=sa;PWD=;APP=Microsoft Office 2010;DATABASE=Eminence
+dbo.ACRIC
+IC001;+IC002;+IC003;+IC004;+IC005;+IC021;+IC022;+IC023

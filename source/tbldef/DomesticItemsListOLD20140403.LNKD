@@ -1,0 +1,4 @@
+﻿DomesticItemsListOLD20140403
+ODBC;DSN=emivisible;Description=Eminence Cloud;UID=kevintrotta;PWD=P@ssw0rd;APP=Microsoft Office 2010;
+dbo.DomesticItemList
+ID

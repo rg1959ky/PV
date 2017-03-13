@@ -1,0 +1,16 @@
+﻿dbMemo "SQL" ="SELECT ActiveConeSpeakers.Item, BOMLines.[Sub Item], TPDims.TPOD\015\012FROM (Ac"
+    "tiveConeSpeakers INNER JOIN BOMLines ON ActiveConeSpeakers.Item = BOMLines.[Pare"
+    "nt Item]) LEFT JOIN TPDims ON BOMLines.[Sub Item] = TPDims.Topplate\015\012WHERE"
+    " (((BOMLines.[Sub Item]) Like \"11*\"));\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbBoolean "TotalsRow" ="0"
+Begin
+End

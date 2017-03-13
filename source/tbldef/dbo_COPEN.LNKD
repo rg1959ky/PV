@@ -1,0 +1,4 @@
+﻿dbo_COPEN
+ODBC;DSN=EDG3;Description=3rd DG ERP database used since about 2010;UID=sa;PWD=;APP=Microsoft Office 2010;DATABASE=Eminence
+dbo.COPEN
+EN001;+EN002;+EN003

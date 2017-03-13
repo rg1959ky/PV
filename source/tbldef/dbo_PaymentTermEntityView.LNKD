@@ -1,0 +1,3 @@
+﻿dbo_PaymentTermEntityView
+ODBC;DSN=EI_Data;Description=Eminence International Accounting Data;UID=Rob.Gault;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=eminenceinternationalcorp
+dbo.PaymentTermEntityView

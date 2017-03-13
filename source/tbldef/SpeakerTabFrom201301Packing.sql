@@ -1,0 +1,11 @@
+CREATE TABLE [SpeakerTabFrom201301Packing] (
+  [ID] AUTOINCREMENT CONSTRAINT [ID] PRIMARY KEY  UNIQUE  NOT NULL ,
+  [Date] VARCHAR (255),
+  [Items] VARCHAR (255),
+  [UOM] VARCHAR (255),
+  [Packing list] VARCHAR (255),
+  [MO] VARCHAR (255),
+  [Packing Cost] DOUBLE ,
+  [QTY] DOUBLE ,
+  [Unit Cost] DOUBLE 
+)

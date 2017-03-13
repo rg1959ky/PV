@@ -1,0 +1,13 @@
+﻿dbMemo "SQL" ="INSERT INTO RunningInvBalance ( Item, [InOut Type], [Order Type], [Order No], [S"
+    "equence Number], Remark )\015\012VALUES (\"02255-DIAEDG\", -1, \"503 \", \"20101"
+    "1088  \", \"0001\", \"\");\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+Begin
+End

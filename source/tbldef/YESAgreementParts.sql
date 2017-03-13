@@ -1,0 +1,4 @@
+CREATE TABLE [YESAgreementParts] (
+  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY  UNIQUE  NOT NULL ,
+  [Component] VARCHAR (255)
+)

@@ -1,0 +1,16 @@
+﻿dbMemo "SQL" ="SELECT BOMLinesThree.[Parent Item], BOMLinesThree.[Sub Item], BOMLinesThree.[Qty"
+    " Per], Items.[Item Property], Items.[Low level Code]\015\012FROM ManufacturedIte"
+    "msWithLLCGreaterThan00 INNER JOIN (BOMLinesThree INNER JOIN Items ON BOMLinesThr"
+    "ee.[Sub Item]=Items.Item) ON ManufacturedItemsWithLLCGreaterThan00.Item=BOMLines"
+    "Three.[Parent Item];\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+Begin
+End

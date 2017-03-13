@@ -1,0 +1,4 @@
+﻿dbo_AJSMC
+ODBC;DSN=EDG3;Description=3rd DG ERP database used since about 2010;UID=sa;PWD=;APP=Microsoft Office 2010;DATABASE=Eminence
+dbo.AJSMC
+MC001;+MC002;+MC003;+MC007

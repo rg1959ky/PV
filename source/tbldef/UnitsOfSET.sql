@@ -1,0 +1,5 @@
+CREATE TABLE [UnitsOfSET] (
+  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY  UNIQUE  NOT NULL ,
+  [Part_Number] VARCHAR (255),
+  [Unit_Of_Measure] VARCHAR (255)
+)

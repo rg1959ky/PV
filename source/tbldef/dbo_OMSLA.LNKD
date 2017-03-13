@@ -1,0 +1,4 @@
+﻿dbo_OMSLA
+ODBC;DSN=EDG3;Description=3rd DG ERP database used since about 2010;UID=sa;PWD=;APP=Microsoft Office 2010;DATABASE=Eminence
+dbo.OMSLA
+LA001;+LA002;+LA003;+LA004;+LA005;+LA006;+LA007;+LA008;+LA009

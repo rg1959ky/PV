@@ -1,0 +1,4 @@
+﻿dbo_HRSMH
+ODBC;DSN=EDG3;Description=3rd DG ERP database used since about 2010;UID=sa;PWD=;APP=Microsoft Office 2010;DATABASE=Eminence
+dbo.HRSMH
+MH001;+MH002;+MH003;+MH004

@@ -1,0 +1,4 @@
+﻿dbo_OMSTP
+ODBC;DSN=EDG3;Description=3rd DG ERP database used since about 2010;UID=sa;PWD=;APP=Microsoft Office 2010;DATABASE=Eminence
+dbo.OMSTP
+TP001;+TP002

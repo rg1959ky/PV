@@ -1,0 +1,4 @@
+﻿DomesticItemsList
+ODBC;Description=Eminence Cloud;DRIVER=SQL Server;SERVER=kevintrotta.db.6646614.hostedresource.com;UID=kevintrotta;PWD=P@ssw0rd;APP=Microsoft® Windows® Operating System;
+dbo.DomesticItemsList
+Item

@@ -1,0 +1,4 @@
+﻿dbo_PSMME
+ODBC;DSN=EDG3;Description=3rd DG ERP database used since about 2010;UID=sa;PWD=;APP=Microsoft Office 2010;DATABASE=Eminence
+dbo.PSMME
+ME001;+ME002;+ME003;+ME004;+ME005

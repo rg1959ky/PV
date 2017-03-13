@@ -1,0 +1,22 @@
+CREATE TABLE [PackingListTempInfo] (
+  [PackingListNumber] VARCHAR (255),
+  [SalesOrderNumber] VARCHAR (255),
+  [QtyOfPackages] LONG ,
+  [QtyPerPackage] LONG ,
+  [PackageType] VARCHAR (50),
+  [QtySubTotal] LONG ,
+  [GrossWeight] DOUBLE ,
+  [NetWeight] DOUBLE ,
+  [CBM] DOUBLE ,
+  [Customer Full Description] VARCHAR (255),
+  [Delivery Address(1)] VARCHAR (255),
+  [Delivery Address(2)] VARCHAR (255),
+  [CustomerNumber] VARCHAR (255),
+  [FullAddress] VARCHAR (255),
+  [Remark] VARCHAR (255),
+  [Pallets] VARCHAR (255),
+  [Cartons] VARCHAR (255),
+  [Item] VARCHAR (255),
+  [Item Description] VARCHAR (60),
+  [PackageTypeCH] VARCHAR (255)
+)

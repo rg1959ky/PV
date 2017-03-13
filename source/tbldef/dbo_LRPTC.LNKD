@@ -1,0 +1,4 @@
+﻿dbo_LRPTC
+ODBC;DSN=EDG3;Description=3rd DG ERP database used since about 2010;UID=sa;PWD=;APP=Microsoft Office 2010;DATABASE=Eminence
+dbo.LRPTC
+TC001;+TC024;+TC046;+TC002;+TC003;+TC025

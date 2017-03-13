@@ -1,0 +1,5 @@
+CREATE TABLE [DomesticItemsListOLD] (
+  [Item] VARCHAR (255) CONSTRAINT [Item] UNIQUE  CONSTRAINT [PrimaryKey] PRIMARY KEY  UNIQUE  NOT NULL ,
+  [Comment] VARCHAR (255),
+  [AppendDate] DATETIME 
+)

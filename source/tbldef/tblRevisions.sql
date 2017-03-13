@@ -1,0 +1,6 @@
+CREATE TABLE [tblRevisions] (
+  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY  UNIQUE  NOT NULL ,
+  [Version] VARCHAR (50),
+  [RevDate] DATETIME ,
+  [RevNote] LONGTEXT 
+)

@@ -1,0 +1,16 @@
+﻿dbMemo "SQL" ="SELECT ItemsInERPNotInKYorSLDC.Item, ItemsInERPNotInKYorSLDC.[Item Description],"
+    " BOMLinesThree.[Parent Item], BOMLinesThree.[Qty Per]\015\012FROM ItemsInERPNotI"
+    "nKYorSLDC INNER JOIN BOMLinesThree ON ItemsInERPNotInKYorSLDC.Item=BOMLinesThree"
+    ".[Sub Item]\015\012ORDER BY ItemsInERPNotInKYorSLDC.Item, BOMLinesThree.[Parent "
+    "Item];\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+Begin
+End

@@ -1,0 +1,3 @@
+CREATE TABLE [ParentListTable] (
+  [Parent] VARCHAR (255) CONSTRAINT [PrimaryKey] PRIMARY KEY  UNIQUE  NOT NULL 
+)

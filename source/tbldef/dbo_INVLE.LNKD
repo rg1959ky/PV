@@ -1,0 +1,4 @@
+﻿dbo_INVLE
+ODBC;DSN=EDG3;Description=3rd DG ERP database used since about 2010;UID=sa;PWD=;APP=Microsoft Office 2010;DATABASE=Eminence
+dbo.INVLE
+LE001;+LE002;+LE003;+LE004;+LE005

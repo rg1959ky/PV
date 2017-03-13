@@ -1,0 +1,10 @@
+﻿Name	Value
+\\	
+365DayPeriod	365
+CashReceiptCustNameContains	Halo
+CurrentToggleState	Snapshot
+DebugLevel	0
+LatestSLDataRefresh	3/9/2017 8:09:59 PM
+PaintUsageAnalysisSpreadsheet	M:\\My Documents\\ExcelFiles\\PaintUsageAnalysis.xlsm
+ShowWarnings	True
+SnapshotDatabaseName	B:\\ERP3.mdb

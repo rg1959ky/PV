@@ -1,0 +1,5 @@
+CREATE TABLE [KYSpecsToRemoveFromDomesticItemsList20140401] (
+  [Item] VARCHAR (255),
+  [Comment] VARCHAR (255),
+  [ID] LONG  CONSTRAINT [ID] PRIMARY KEY  UNIQUE  NOT NULL 
+)

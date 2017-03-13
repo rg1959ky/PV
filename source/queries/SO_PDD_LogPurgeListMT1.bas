@@ -1,0 +1,16 @@
+﻿dbMemo "SQL" ="SELECT DISTINCTROW [SO-PDD_Log].* INTO SO_PDD_LogRecordsToPurge\015\012FROM ([SO"
+    "-PDD_Log] INNER JOIN SOPDDDups1 ON [SO-PDD_Log].[SO-PDD]=SOPDDDups1.[SO-PDD]) IN"
+    "NER JOIN SOLines ON (SOPDDDups1.OrderSeq=SOLines.[Sequence Number]) AND (SOPDDDu"
+    "ps1.OrderNum=SOLines.[Order No]) AND (SOPDDDups1.OrderType=SOLines.[Order Type])"
+    "\015\012WHERE (((SOLines.Close)<>\"N\") AND ((SOPDDDups1.Found)<Now()-180));\015"
+    "\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+Begin
+End

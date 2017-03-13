@@ -1,0 +1,3 @@
+CREATE TABLE [KnownCompleteBOMs] (
+  [ItemNumber] VARCHAR (50) CONSTRAINT [PrimaryKey] PRIMARY KEY  UNIQUE  NOT NULL 
+)

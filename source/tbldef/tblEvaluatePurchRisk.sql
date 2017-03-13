@@ -1,0 +1,5 @@
+CREATE TABLE [tblEvaluatePurchRisk] (
+  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY  UNIQUE  NOT NULL ,
+  [FGPartNUmber] VARCHAR (50) CONSTRAINT [FGPartNUmber] UNIQUE ,
+  [Qty] LONG 
+)

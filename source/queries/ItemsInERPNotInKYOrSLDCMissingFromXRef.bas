@@ -1,0 +1,17 @@
+﻿dbMemo "SQL" ="SELECT ItemsInERPNotInKYorSLDCInBOMsOnly.Item, ItemsInERPNotInKYorSLDCInBOMsOnly"
+    ".[Item Description], ItemsInERPNotInKYorSLDC_XLS.Item, ItemsInERPNotInKYorSLDC_X"
+    "LS.Eng_Part_Number\015\012FROM ItemsInERPNotInKYorSLDCInBOMsOnly LEFT JOIN Items"
+    "InERPNotInKYorSLDC_XLS ON ItemsInERPNotInKYorSLDCInBOMsOnly.Item=ItemsInERPNotIn"
+    "KYorSLDC_XLS.Item\015\012WHERE (((ItemsInERPNotInKYorSLDC_XLS.Eng_Part_Number)=\""
+    "\"));\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+Begin
+End

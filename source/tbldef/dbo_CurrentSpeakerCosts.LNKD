@@ -1,0 +1,3 @@
+﻿dbo_CurrentSpeakerCosts
+ODBC;DSN=emivisible;Description=Eminence Cloud;UID=kevintrotta;PWD=P@ssw0rd;APP=Microsoft Office 2016;
+dbo.CurrentSpeakerCosts

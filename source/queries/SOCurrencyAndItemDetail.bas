@@ -1,0 +1,15 @@
+﻿dbMemo "SQL" ="SELECT SOHeaders.Currency, SOLines.Item\015\012FROM SOHeaders INNER JOIN SOLines"
+    " ON (SOHeaders.[Order No] = SOLines.[Order No]) AND (SOHeaders.[Order Type] = SO"
+    "Lines.[Order Type])\015\012\015\012UNION SELECT SOHeaders2.Currency, SOLines2.It"
+    "em\015\012FROM SOHeaders2 INNER JOIN SOLines2 ON (SOHeaders2.[Order No] = SOLine"
+    "s2.[Order No]) AND (SOHeaders2.[Order Type] = SOLines2.[Order Type]);\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+Begin
+End

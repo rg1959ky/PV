@@ -1,0 +1,4 @@
+﻿dbo_HRSTD
+ODBC;DSN=EDG3;Description=3rd DG ERP database used since about 2010;UID=sa;PWD=;APP=Microsoft Office 2010;DATABASE=Eminence
+dbo.HRSTD
+TD004;+TD001;+TD002

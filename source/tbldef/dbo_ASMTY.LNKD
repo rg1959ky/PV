@@ -1,0 +1,4 @@
+﻿dbo_ASMTY
+ODBC;DSN=EDG3;Description=3rd DG ERP database used since about 2010;UID=sa;PWD=;APP=Microsoft Office 2010;DATABASE=Eminence
+dbo.ASMTY
+TY001;+TY002;+TY003

@@ -1,0 +1,4 @@
+﻿dbo_ACPTS
+ODBC;DSN=EDG3;Description=3rd DG ERP database used since about 2010;UID=sa;PWD=;APP=Microsoft Office 2010;DATABASE=Eminence
+dbo.ACPTS
+TS020;+TS001;+TS002;+TS003;+TS004;+TS005;+TS018;+TS019;+TS021

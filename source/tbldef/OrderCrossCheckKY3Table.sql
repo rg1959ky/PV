@@ -1,0 +1,12 @@
+CREATE TABLE [OrderCrossCheckKY3Table] (
+  [PO_NUMBER] VARCHAR (255),
+  [SPEC] VARCHAR (255),
+  [SumOfQTY] DOUBLE ,
+  [PRICE] DOUBLE ,
+  [DATE_ENTERED] DATETIME ,
+  [CUSTOMER] VARCHAR (255),
+  [Currency] VARCHAR (255),
+  [Exclude] LONG ,
+  [ExcludeReason] VARCHAR (255),
+  [Key] VARCHAR (255)
+)

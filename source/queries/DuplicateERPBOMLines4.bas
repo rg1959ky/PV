@@ -1,0 +1,15 @@
+﻿dbMemo "SQL" ="SELECT BOM1Summary.Parent, BOM1Summary.Child, DuplicateERPBOMLines3.[SumOfQty Pe"
+    "r], BOM1Summary.[SumOfQty Per Assy]\015\012FROM DuplicateERPBOMLines3 LEFT JOIN "
+    "BOM1Summary ON (DuplicateERPBOMLines3.[Sub Item]=BOM1Summary.Child) AND (Duplica"
+    "teERPBOMLines3.[Parent Item]=BOM1Summary.Parent);\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+Begin
+End

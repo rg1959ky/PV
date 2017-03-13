@@ -1,0 +1,21 @@
+CREATE TABLE [TestInventory] (
+  [UniqueID] AUTOINCREMENT,
+  [SalesOrderNumber] VARCHAR (25),
+  [NonInvoicePieces] BIT ,
+  [QtyOfPackages] LONG ,
+  [QtyPerPackage] LONG ,
+  [PackageType] VARCHAR (50),
+  [QtySubTotal] LONG ,
+  [Comment] VARCHAR (50),
+  [ActualShipDate] DATETIME ,
+  [PackingTicketEntryDate] DATETIME ,
+  [ShippedFlag] BIT ,
+  [LoadNumber] VARCHAR (255),
+  [PackedFlag] BIT ,
+  [GrossWeight] DOUBLE ,
+  [NetWeight] DOUBLE ,
+  [CBM] DOUBLE ,
+  [CustomerNumber] VARCHAR (255),
+  [upsize_ts] BINARY ,
+  [ShipTo] VARCHAR (50)
+)

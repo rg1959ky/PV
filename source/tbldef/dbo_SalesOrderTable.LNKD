@@ -1,0 +1,4 @@
+﻿dbo_SalesOrderTable
+ODBC;DSN=EI_Data;Description=Eminence International Accounting Data;UID=Rob.Gault;Trusted_Connection=Yes;APP=Microsoft Office 2016;DATABASE=eminenceinternationalcorp
+dbo.SalesOrderTable
+DocumentID

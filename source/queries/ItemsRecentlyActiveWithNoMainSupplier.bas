@@ -1,0 +1,25 @@
+﻿dbMemo "SQL" ="SELECT ItemsWithNoMainSupplier.Item, Items.[Item Description], Items.[Item Prope"
+    "rty], Items.[Last Purchase Price Currency-Original Currency], Items.[Last Purcha"
+    "se Price-Price(OC)], Items.[Last Purchase Price-Price(BC)], Items.[Inventory Qua"
+    "ntity]\015\012FROM (ItemsWithNoMainSupplier INNER JOIN RecentlyActiveItems ON It"
+    "emsWithNoMainSupplier.Item=RecentlyActiveItems.Item) INNER JOIN Items ON ItemsWi"
+    "thNoMainSupplier.Item=Items.Item\015\012WHERE (((Items.[Item Property])=\"S\" Or"
+    " (Items.[Item Property])=\"P\"))\015\012ORDER BY ItemsWithNoMainSupplier.Item;\015"
+    "\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+Begin
+    Begin
+        dbText "Name" ="ItemsWithNoMainSupplier.Item"
+        dbInteger "ColumnWidth" ="1935"
+        dbBoolean "ColumnHidden" ="0"
+        dbLong "AggregateType" ="-1"
+    End
+End

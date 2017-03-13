@@ -1,0 +1,4 @@
+﻿dbo_ACTMM
+ODBC;DSN=EDG3;Description=3rd DG ERP database used since about 2010;UID=sa;PWD=;APP=Microsoft Office 2010;DATABASE=Eminence
+dbo.ACTMM
+MM001;+MM002;+MM003;+MM004;+MM005;+MM017;+MM016
